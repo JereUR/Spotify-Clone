@@ -1,24 +1,28 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "compilerOptions":{
-    "baseUrl":".",
-    "paths":{
-      "@/*":["src/*"],
-      "@/components":[
+  "compilerOptions": {
+    "baseUrl": "D:/Jere Files/Proyectos/Clon Spotify/spotify-clone",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@/components": [
         "src/components/*"
       ],
-      "@/pages":[
+      "@/pages": [
         "src/pages/*"
       ],
-      "@/icons":[
+      "@/icons": [
         "src/icons/*"
       ],
-      "@/lib":[
+      "@/lib": [
         "src/lib/*"
       ],
-      "@/layouts":[
+      "@/layouts": [
         "src/layouts/*"
       ]
-    }
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }
